@@ -1,0 +1,36 @@
+* {
+  font-family: sans-serif;
+}
+
+.parent {
+  display: flex;
+}
+
+.child {
+  display: grid;
+  text-align: center;
+  grid-template-columns: repeat(4, minmax(100px, 1fr));
+}
+.title {
+  height: 150px;
+  margin-top: 25px;
+}
+
+.products {
+  max-width: 300px;
+  margin: 10px;
+}
+
+.media {
+  height: 200px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sliderImage {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  mask-image: linear-gradient(to bottom, rgb(0, 0, 0) 0, transparent 100%);
+}
